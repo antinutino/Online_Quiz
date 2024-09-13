@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(146, 231, 196);
+}
+
+.title{
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.question_cont{
+     
+    margin: auto;
+    justify-content: center;
+    width: 50%;
+    height: auto;
+    max-height: 80vh;
+    overflow: auto;
+    border: 2px solid slateblue;
+    background-color: rgb(218, 203, 157);
+    border-radius: 20px;
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .question_cont {
+        width: 80%; 
+    }
+}
+.question{
+    margin-left: 40px;
+    text-align: left;
+    margin-top: 30px;
+
+}
+
+.options{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+    .options {
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+}
+
+.option{
+    background-color: beige;
+    margin: 6px;
+    padding: 6px;
+    border-radius: 12px;
+    font-size: large;
+    text-align: left;
+    padding-left: 20px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 16px;
+}
+.button1{
+    padding: 8px;
+    width: 100px;
+    font-size: large;
+    background-color: cadetblue;
+    border-radius: 10px;
+}
+.button2{
+    padding: 8px;
+    width: 100px;
+    font-size: large;
+    background-color: rgb(37, 163, 90);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.submit{
+    padding: 8px;
+    width: 120px;
+    font-size: large;
+    background-color: rgb(0, 214, 36);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.start{
+    padding: 8px;
+    width: 120px;
+    font-size: large;
+    background-color: rgb(0, 214, 36);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 140px;
+}
+.frontpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.ansh1{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    padding: 2px;
+    border-radius: 8px;
+    background-color: rgb(230, 220, 93);
+}
+
+.result{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: rgb(25, 204, 49);
+    padding-bottom: 10px;
+    
+}
+
+.time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
